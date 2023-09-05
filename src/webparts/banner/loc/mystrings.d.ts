@@ -1,8 +1,6 @@
 declare interface IBannerWebPartStrings {
   PropertyPaneDescription: string;
   BasicGroupName: string;
-  overlayText: string;
-  imageUrl: string;
   AppLocalEnvironmentSharePoint: string;
   AppLocalEnvironmentTeams: string;
   AppLocalEnvironmentOffice: string;

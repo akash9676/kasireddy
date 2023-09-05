@@ -19,8 +19,24 @@
     "officeFabricIconFontName": "Page",
     "properties": {
       "description": "banner",
-      "overlayText" : "Kasireddy",
-      "imageUrl" : "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg",
+      "imageUrls" : [
+        {
+          "imageUrl": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg",
+          "slideTitle": "Kasireddy"
+        },
+        {
+          "imageUrl": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg",
+          "slideTitle": "Kasireddy"
+        },
+        {
+          "imageUrl" : "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg",
+          "slideTitle" : "Kasireddy"
+        },
+        {
+          "imageUrl" : "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg",
+          "slideTitle" : "Kasireddy"
+        }
+      ],
       "imageHeight" : 150
     }
   }]
