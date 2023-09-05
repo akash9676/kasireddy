@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/banner/BannerWebPart.manifest.json"
         }
       ]
+    },
+    "navigation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/navigation/NavigationWebPart.js",
+          "manifest": "./src/webparts/navigation/NavigationWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "HelloWorldWebPartStrings": "lib/webparts/helloWorld/loc/{locale}.js",
-    "BannerWebPartStrings": "lib/webparts/banner/loc/{locale}.js"
+    "BannerWebPartStrings": "lib/webparts/banner/loc/{locale}.js",
+    "NavigationWebPartStrings": "lib/webparts/navigation/loc/{locale}.js"
   }
 }
